@@ -10,11 +10,42 @@ h1{
    
     justify-content: center;
 }
-.p h3{
-   
-}
-.q{
-    margin: 0px 0px;
-    margin-left: 
+
+.pot1 {
+    margin:10px;
     text-align: center;
+    
+}
+.p h3{
+    margin-top: 0px;
+    text-align:center;
+}
+.pic{
+    position:relative;
+}
+.pic h3{
+    position:absolute;
+    top: 170px;
+    left:10px;
+}
+.ppot{
+    position:relative;  
+}
+.ppot h3{
+    position:absolute;
+    top: 10px;
+    left:10px;  
+}
+.pppot{
+    position:relative;  
+}
+.pppot h3{
+    position:absolute; 
+}
+.ppppot{
+     
+    text-align: center;
+}
+.ppppot{
+
 }
