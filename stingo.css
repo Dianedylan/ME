@@ -6,7 +6,7 @@
 }
 body
 {
-    background-image: url(../html_css/pexels-photo-776656.webp);
+    background-image: url('pexels-photo-776656.webp');
     background-size: fit;
     background-size: cover;
     __height: 180px;

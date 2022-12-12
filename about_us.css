@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(100, 90, 100);
+}
+.title{
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 150%;   
+}
+.title img{
+    background-color: aqua;
+    height: 300px;
+}
+.about{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.intro{
+    text-align: center;
+}
+*{
+    box-sizing: border-box;
+    __margin: 0;
+}
+.column{
+    __height: 300px;
+    __overflow: hidden;
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+.column img{
+    transition: transform .5s ease;
+}
+.column:hover{
+    background-color: white;
+    transform: scale(0.9);
+}
+
+
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
