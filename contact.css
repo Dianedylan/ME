@@ -1,0 +1,54 @@
+
+.contact ul{
+    display:inline-flex;
+    list-style: none;
+   
+}
+.contact ul li{
+    
+    width:160px;
+    margin:15px;
+    padding:15px;
+}
+.contact ul li a{
+    margin-top: 100px;
+    text-decoration:none;
+    color:rgb(0, 18, 13);
+    font-weight: 200;
+}
+.fa{
+    margin-right: 8px;
+}
+.contact p{
+    margin-top: 50px;
+    color:rgb(1, 29, 29);
+    text-decoration: none;
+}
+body{
+    
+    background-image: url('plain.webp');
+    background-repeat: no-repeat;
+    background-size:1400px 800px;
+}
+.para{
+    margin-top: 50px;
+    line-height: 2;
+
+}
+.para h4{
+    color:rgb(144, 62, 109);
+}
+.icons{
+    text-align: center;
+    display:inline-flex;
+    list-style: none;
+}
+.icons .tooltip{
+    padding:15px;
+    margin:15px;
+    background: rgb(242, 238, 240);
+    text-align: center;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
