@@ -1,5 +1,7 @@
 
+
 .contact ul{
+    margin-top: 0;
     display:inline-flex;
     list-style: none;
     
@@ -9,11 +11,10 @@
     
     width:160px;
     margin:15px;
-    padding:15px;
-   
+    padding:15px; 
 }
+
 .contact ul li a{
-    margin-top: 100px;
     text-decoration:none;
     color:rgb(41, 3, 26);
     font-weight: 700;
@@ -22,34 +23,21 @@
     margin-right: 8px;
 }
 .contact p{
-    margin-top: 50px;
+    margin-top: 0px;
     color:rgb(1, 29, 29);
     text-decoration: none;
 }
-body{
-    
-    background-image: url('plain.webp');
-    background-repeat: no-repeat;
-    background-size:1400px 800px;
-}
-.para{
-    margin-top: 50px;
-    line-height: 2;
 
-}
-.para h4{
-    color:rgb(5, 52, 44);
-}
 .icons{
-    text-align: center;
+    margin-left: 1100px;
     display:inline-flex;
     list-style: none;
 }
 .icons .tooltip{
-    padding:15px;
+    padding:14px;
     margin:15px;
    
-    background: rgb(242, 238, 240);
+    background: rgb(121, 123, 123);
     text-align: center;
     border-radius: 50%;
     height: 50px;
@@ -58,4 +46,8 @@ body{
 .icons .tooltip i .fab{
     size:10px;
     text-align: center;
+}
+.icons .tooltip i:hover{
+    
+    color: rgb(228, 239, 242);
 }
