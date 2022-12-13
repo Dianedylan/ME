@@ -40,7 +40,9 @@ body{
     background-color: white;
     transform: scale(0.9);
 }
-
+.column h1{
+    text-align: center;
+} 
 
 .row::after{
     content: "";
