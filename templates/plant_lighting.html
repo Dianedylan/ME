@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for('.static', filename='stingo.css')}}">
+    <link rel="stylesheet" href="{{url_for('.static', filename='plant_lighting.css')}}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>Plant and Lighting</title>
+</head>
+<body>
+
+
+    <div class="menu-bar">
+        <ul>
+        <li class="active"><a href="{{url_for('indigo')}}"><i class="fa fa-house"></i>Home</a></li> 
+        <li><a href="#"><i class="fa fa-user"></i>About Us</a>
+            <div class="sub-menu-1">
+                <ul>
+                    <li><a href="#">Mission</a></li>
+                    <li><a href="#">Vission</a></li>
+                    <li><a href="#">Team</a></li>
+                </ul>
+        
+             </div>
+        </li>
+        <li><a href="#"><i class="fa fa-clone"></i>Services</a>
+            <div class="sub-menu-1">
+                <ul>
+                    <li class="hover-me"><a href="#">Interior Decor</a><i class="fa fa-angle-right"></i>
+                        <div class="sub-menu-2">
+                            <ul>
+                                <li><a href="#">Favorite plant</a></li>
+                                <li><a href="#">Live & Artificial</a></li>
+                                <li><a href="{{url_for('pots')}}">Pot Preference</a></li>
+                            </ul>
+                    
+                         </div>
+                    
+                    </li>
+                    <li class="hover-me"><a href="#">Landscape Design</a><i class="fa fa-angle-right"></i>
+                        <div class="sub-menu-2">
+                            <ul>
+                                <li><a href="{{url_for('plant_lighting')}}">Plant and Lighting packages</a></li>
+                                <li><a href="{{url_for('site_analysis')}}">Site Analysis</a></li>
+                                <li><a href="{{url_for('pots')}}">Pot and plant Layout</a></li>
+                            </ul>
+                    
+                         </div>
+                    </li>
+                    <li class="hover-me"><a href="#">Garden Design</a><i class="fa fa-angle-right"></i>
+                        <div class="sub-menu-2">
+                            <ul>
+                                <li><a href="{{url_for('gardend')}}">Latest Garden Design Projects</a></li>
+                                <li><a href="{{url_for('plant_lighting')}}">Inspiration guide</a></li>
+                                <li><a href="#">Reviews</a></li>
+                            </ul>
+                    
+                         </div>
+                </li>
+                <li class="hover-me"><a href="#">Plant Supply and Delivery</a><i class="fa fa-angle-right"></i>
+                    <div class="sub-menu-2">
+                        <ul>
+                            <li><a href="#">Right Plant to your Doorstep</a></li>
+                        </ul>
+                
+                     </div>
+                </li>
+            </ul>
+    
+         </div>
+    </li>
+    <li><a href="#"><i class="fa fa-users"></i>Clients</a></li>
+    <li><a href="#"><i class="fa fa-inr"></i>Pricing</a></li>
+
+    </ul>
+</div>
+<div class="icons">
+    <div class="tooltip"><span><i class="fab fa-facebook-f"></i></span></div>
+    <div class="tooltip"><span><i class="fab fa-instagram"></i></span></div>
+    <div class="tooltip"><span><i class="fab fa-twitter"></i></span></div>
+
+</div>
+<div class="contact">
+  
+
+    <p><h2>For Your home designs and lighting needs;</h2> <br> We love to get you the ideas from a different perspective<br>
+       We consider the Landscaping materials, Garden structures and features, Prefered plants, Lighting and Utilities</p>
+
+    <div class="para">
+    <img src = "static/picsfile/p_l0.jpg" > 
+    <img src = "static/picsfile/p_l.jpg" height="300px" width="300px"> <img src = "static/picsfile/p_l001.jpg"><img src = "static/picsfile/p_l0001.jpg"  height="400px" width="300px">
+    <img src = "static/picsfile/p_l01.jpg"> <img src = "static/picsfile/p_l2.jpg"> <img src = "static/picsfile/p_l00001.jpg">
+    </div>
+    <ul>
+    <li><a href="#">PlantMe&CO</a></li>
+    <li><a href="{{url_for('contact')}}"><i class="fa-solid fa-phone"></i>Contact Us</a></li>
+    </ul>
+</div>
+</body>
+</html>

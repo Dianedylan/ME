@@ -1,13 +1,15 @@
 <html>
     <head>
         <title> Plantme</title>
-        <link rel="stylesheet" href="stingo.css">
-        <link rel="stylesheet" href="fontawesome1/css/all.css">
+        
+        <link rel="stylesheet" href="{{url_for('.static', filename ='stingo.css')}}">
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     </head>
     <body>
-        <div class="menu-bar">
+            <div class="menu-bar">
             <ul>
-            <li class="active"><a href="#"><i class="fa fa-house"></i>Home</a></li> 
+            <li class="active"><a href="{{url_for('indigo')}}"><i class="fa fa-house"></i>Home</a></li> 
             <li><a href="#"><i class="fa fa-user"></i>About Us</a>
                 <div class="sub-menu-1">
                     <ul>
@@ -35,9 +37,9 @@
                         <li class="hover-me"><a href="#">Landscape Design</a><i class="fa fa-angle-right"></i>
                             <div class="sub-menu-2">
                                 <ul>
-                                    <li><a href="#">Plant and Lighting packages</a></li>
-                                    <li><a href="#">Site Analysis</a></li>
-                                    <li><a href="#">Pot and plant Layout</a></li>
+                                    <li><a href="{{url_for('plant_lighting')}}">Plant and Lighting packages</a></li>
+                                    <li><a href="{{url_for('site_analysis')}}">Site Analysis</a></li>
+                                    <li><a href="{{url_for('pots')}}">Pot and plant Layout</a></li>
                                 </ul>
                         
                              </div>
@@ -45,8 +47,8 @@
                         <li class="hover-me"><a href="#">Garden Design</a><i class="fa fa-angle-right"></i>
                             <div class="sub-menu-2">
                                 <ul>
-                                    <li><a href="#">Latest Garden Design Projects</a></li>
-                                    <li><a href="#">Inspiration guide</a></li>
+                                    <li><a href="{{url_for('gardend')}}">Latest Garden Design Projects</a></li>
+                                    <li><a href="{{url_for('plant_lighting')}}">Inspiration guide</a></li>
                                     <li><a href="#">Reviews</a></li>
                                 </ul>
                         
@@ -66,9 +68,10 @@
             </li>
             <li><a href="#"><i class="fa fa-users"></i>Clients</a></li>
             <li><a href="#"><i class="fa fa-inr"></i>Pricing</a></li>
-            <li><a href="#"><i class="fa fa-phone"></i>Contact</a></li>
+            <li><a href="{{url_for('contact')}}"><i class="fa fa-phone"></i>Contact</a></li>
             </ul>
         </div>
+        <p>ARE YOU A PLANT LOVER LOOKING TO PLANTIFY YOUR HOME? <BR> WORRY NO MORE! <BR> PLANTME GOT YOU!</p>
     </body>
 
 </html>

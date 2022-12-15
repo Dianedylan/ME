@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for('.static', filename ='stingo.css')}}">
+    <link rel="stylesheet" href="{{url_for('.static', filename ='contact.css')}}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>Contact  us</title>
+</head>
+<body>
+
+
+    <div class="menu-bar">
+        <ul>
+        <li class="active"><a href="{{url_for('indigo')}}"><i class="fa fa-house"></i>Home</a></li> 
+        <li><a href="#"><i class="fa fa-user"></i>About Us</a>
+            <div class="sub-menu-1">
+                <ul>
+                    <li><a href="#">Mission</a></li>
+                    <li><a href="#">Vission</a></li>
+                    <li><a href="#">Team</a></li>
+                </ul>
+        
+             </div>
+        </li>
+        <li><a href="#"><i class="fa fa-clone"></i>Services</a>
+            <div class="sub-menu-1">
+                <ul>
+                    <li class="hover-me"><a href="#">Interior Decor</a><i class="fa fa-angle-right"></i>
+                        <div class="sub-menu-2">
+                            <ul>
+                                <li><a href="#">Favorite plant</a></li>
+                                <li><a href="#">Live & Artificial</a></li>
+                                <li><a href="{{url_for('pots')}}">Pot Preference</a></li>
+                            </ul>
+                    
+                         </div>
+                    
+                    </li>
+                    <li class="hover-me"><a href="#">Landscape Design</a><i class="fa fa-angle-right"></i>
+                        <div class="sub-menu-2">
+                            <ul>
+                                <li><a href="{{url_for('plant_lighting')}}">Plant and Lighting packages</a></li>
+                                <li><a href="{{url_for('site_analysis')}}">Site Analysis</a></li>
+                                <li><a href="{{url_for('pots')}}">Pot and plant Layout</a></li>
+                            </ul>
+                    
+                         </div>
+                    </li>
+                    <li class="hover-me"><a href="#">Garden Design</a><i class="fa fa-angle-right"></i>
+                        <div class="sub-menu-2">
+                            <ul>
+                                <li><a href="{{url_for('gardend')}}">Latest Garden Design Projects</a></li>
+                                <li><a href="{{url_for('plant_lighting')}}">Inspiration guide</a></li>
+                                <li><a href="#">Reviews</a></li>
+                            </ul>
+                    
+                         </div>
+                </li>
+                <li class="hover-me"><a href="#">Plant Supply and Delivery</a><i class="fa fa-angle-right"></i>
+                    <div class="sub-menu-2">
+                        <ul>
+                            <li><a href="#">Right Plant to your Doorstep</a></li>
+                        </ul>
+                
+                     </div>
+                </li>
+            </ul>
+    
+         </div>
+    </li>
+    <li><a href="#"><i class="fa fa-users"></i>Clients</a></li>
+    <li><a href="#"><i class="fa fa-inr"></i>Pricing</a></li>
+
+    </ul>
+</div>
+<div class="contact">
+    <ul>
+<li><a href="{{url_for('contact')}}"><i class="fa-solid fa-phone"></i>Contact Us</a></li>
+<li><a href="#">PlantMe&CO</a></li>
+</ul>
+
+    <p><h2>CONTACT US</h2> <br> <h3>We love it when people get in touch </h3></p>
+
+<div class="para">
+<p>
+    Our phone lines are open <br>
+    
+    9am-5pm Monday to Friday and from 9am-1pm on Saturday<br>
+    
+    Ngongroad (Main & Shop)<br>
+    <h4>0716 736 387</h4><br>
+    Nairobi CBD<br>
+<h4>0716 736 387/8 </h4><br>
+</p>
+<div class="icons">
+    <div class="tooltip"><span><i class="fab fa-facebook-f"></i></span></div>
+    <div class="tooltip"><span><i class="fab fa-instagram"></i></span></div>
+    <div class="tooltip"><span><i class="fab fa-twitter"></i></span></div>
+
+</div>
+</div>
+</div>
+</body>
+</html>

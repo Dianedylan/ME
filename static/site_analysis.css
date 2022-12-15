@@ -2,13 +2,13 @@ p{
 
 }
 .txt ul li{
-    margin:30px;
+    margin:20px;
     padding: 0;
     list-style-type: disc;  
 }
 .landpic{
     text-align: center;
-    margin: 0 600px 0px;
+    
 }
 .txt{
     font-family: montserrat;
