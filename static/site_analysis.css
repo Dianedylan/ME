@@ -1,5 +1,5 @@
 p{
-
+    color: rgb(24, 23, 23);
 }
 .txt ul li{
     margin:20px;
@@ -13,4 +13,11 @@ p{
 .txt{
     font-family: montserrat;
 }
+body{
+    background-image:url('');
+}
+#newsletter{
+    margin-top: 0px;   
+}
+
  

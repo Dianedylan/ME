@@ -7,9 +7,12 @@ body{
     position: relative;
     text-align: center;
     color: white;
-    height: 50%;
+    height: 100%;
     filter: brightness(80%);
     
+}
+body{
+    background-image:url('');
 }
 
 .centered{
@@ -34,4 +37,14 @@ body{
 }
 .txt p{
     color: white;  
+}
+#newsletter{
+    margin-top: 0px;   
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-position: 20% 30%;
+    background-color: #041e42;
+    margin-bottom: 0;
 }

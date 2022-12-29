@@ -1,13 +1,13 @@
 body{
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
-
-    
+    font-family: sans-serif; 
     
 }
+
 h1{
-   
+    
+    border-top: 50px;
     justify-content: center;
 }
 
@@ -48,4 +48,10 @@ h1{
 }
 .ppppot{
 
+}
+body{
+    background-image:url('');
+}
+#newsletter{
+    margin-top: 0px;   
 }

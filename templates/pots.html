@@ -1,19 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+{% extends 'layout.html'%}
+
+{% block content%}
     <title>Pots Preference</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  
     <link rel="stylesheet" href="{{url_for('.static', filename='pot.css')}}">
-</head>
-<body>
+
     <nav>
         <h1>Get the pot patterns, sizes and colours that excite you</h1>
     </nav>
     <hr>
-   
+   <br>
     <h3>It's time to pretty up those planters!</h3>
     <p>Suitable for indoor and outdoor use alike, <br>these gorgeous and modern ceramic planters work great on a tabletop or the floor</p>
         <div class="ppot">
@@ -39,11 +35,4 @@
         
        
     </div>
-   <!-- <div class="pot3">plain pots </div>
-    <div class="pot4">woven pots</div>
-    <h3>Plain pots</h3>
-    <h3>patterned pots</h3>
-    <h3>Woven pots</h3>
-    <br> -->
-</body>
-</html>
+{%endblock%}

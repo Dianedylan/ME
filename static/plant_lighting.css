@@ -51,3 +51,10 @@
     
     color: rgb(228, 239, 242);
 }
+body{
+    background-image:url('');
+    background-color: rgb(190, 196, 196);
+}
+#newsletter{
+    margin-top: 0px;   
+}

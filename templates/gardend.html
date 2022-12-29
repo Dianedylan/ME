@@ -1,84 +1,12 @@
-<html>
-    <head>
-        <title> Plantme</title>
-        <link rel="stylesheet" href="{{url_for('.static', filename ='stingo.css')}}">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    </head>
-    <body>
-            <div class="menu-bar">
-            <ul>
-            <li class="active"><a href="{{url_for('indigo')}}"><i class="fa fa-house"></i>Home</a></li> 
-            <li><a href="#"><i class="fa fa-user"></i>About Us</a>
-                <div class="sub-menu-1">
-                    <ul>
-                        <li><a href="#">Mission</a></li>
-                        <li><a href="#">Vission</a></li>
-                        <li><a href="#">Team</a></li>
-                    </ul>
-            
-                 </div>
-            </li>
-            <li><a href="#"><i class="fa fa-clone"></i>Services</a>
-                <div class="sub-menu-1">
-                    <ul>
-                        <li class="hover-me"><a href="#">Interior Decor</a><i class="fa fa-angle-right"></i>
-                            <div class="sub-menu-2">
-                                <ul>
-                                    <li><a href="#">Favorite plant</a></li>
-                                    <li><a href="#">Live & Artificial</a></li>
-                                    <li><a href="{{url_for('pots')}}">Pot Preference</a></li>
-                                </ul>
-                        
-                             </div>
-                        
-                        </li>
-                        <li class="hover-me"><a href="#">Landscape Design</a><i class="fa fa-angle-right"></i>
-                            <div class="sub-menu-2">
-                                <ul>
-                                    <li><a href="{{url_for('plant_lighting')}}">Plant and Lighting packages</a></li>
-                                    <li><a href="{{url_for('site_analysis')}}">Site Analysis</a></li>
-                                    <li><a href="{{url_for('pots')}}">Pot and plant Layout</a></li>
-                                </ul>
-                        
-                             </div>
-                        </li>
-                        <li class="hover-me"><a href="#">Garden Design</a><i class="fa fa-angle-right"></i>
-                            <div class="sub-menu-2">
-                                <ul>
-                                    <li><a href="{{url_for('gardend')}}">Latest Garden Design Projects</a></li>
-                                    <li><a href="{{url_for('plant_lighting')}}">Inspiration guide</a></li>
-                                    <li><a href="#">Reviews</a></li>
-                                </ul>
-                        
-                             </div>
-                        </li>
-                        <li class="hover-me"><a href="#">Plant Supply and Delivery</a><i class="fa fa-angle-right"></i>
-                            <div class="sub-menu-2">
-                                <ul>
-                                    <li><a href="#">Right Plant to your Doorstep</a></li>
-                                </ul>
-                        
-                             </div>
-                        </li>
-                    </ul>
-            
-                 </div>
-            </li>
-            <li><a href="#"><i class="fa fa-users"></i>Clients</a></li>
-            <li><a href="#"><i class="fa fa-inr"></i>Pricing</a></li>
-            <li><a href="{{url_for('contact')}}"><i class="fa fa-phone"></i>Contact</a></li>
-            </ul>
-        </div>
+{% extends 'layout.html'%}
+
+{% block content%}
+<link rel="stylesheet" href="{{url_for('.static', filename='gardend.css')}}">
         <div class="pppot">
             <img src = "static/picsfile/nicepic1.jpg" height="400px"> 
             <img src = "static/picsfile/landscape2.jpg" height="300px" width="300px" >
             <img src = "static/picsfile/landscape3.jpg" height="300px">
             <img src = "static/picsfile/landscape4.jpg"height="300px">         
-
-
         </div>
-        </div>
-
-    </body>
-
-</html>
+   
+{% endblock%}

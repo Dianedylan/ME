@@ -5,6 +5,7 @@
         <link rel="stylesheet" href="{{url_for('.static', filename ='stingo.css')}}">
         
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+        {%block title%} {% endblock %}
     </head>
     <body>
             <div class="menu-bar">
@@ -71,7 +72,7 @@
             <li><a href="{{url_for('contact')}}"><i class="fa fa-phone"></i>Contact</a></li>
             </ul>
         </div>
-       {{% block content %}} {{% endblock %}}
+       {% block content %} {% endblock %}
             <section id="newsletter"  class="section-p1 section-m1">
                 <div class="newstext">
                     <h4>Sign Up For Newsletters</h4>

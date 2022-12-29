@@ -50,6 +50,7 @@ h4{
     text-align: center;
     display:inline-flex;
     list-style: none;
+    border-bottom: 0px;
 }
 .icons .tooltip{
     padding:15px;
@@ -64,10 +65,20 @@ h4{
 .icons .tooltip i .fab{
     size:10px;
     text-align: center;
+    
 }
 .contact-in
 {
 width: 50%;
 height: 300px;
-    
+}
+#newsletter{
+    margin-top: 0px;   
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-position: 20% 30%;
+    background-color: #041e42;
+    margin-bottom: 0;
 }
