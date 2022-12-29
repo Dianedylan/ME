@@ -8,9 +8,9 @@ app = Flask(__name__)
 def indigo():
     return render_template("indigo.html")
     
-@app.route('/live&artificial')
-def live_artificial():
-    return render_template("live&artificial.html")
+@app.route('/liveartificial')
+def liveartificial():
+    return render_template("liveartificial.html")
 
 @app.route('/pots')
 def pots():

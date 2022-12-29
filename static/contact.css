@@ -34,9 +34,16 @@ body{
 .para{
     margin-top: 50px;
     line-height: 2;
+    display: flex;
+    
+    justify-content: space-between;
 
 }
-.para h4{
+.para p{
+    width: 40%;
+}
+
+h4{
     color:rgb(5, 52, 44);
 }
 .icons{
@@ -57,4 +64,10 @@ body{
 .icons .tooltip i .fab{
     size:10px;
     text-align: center;
+}
+.contact-in
+{
+width: 50%;
+height: 300px;
+    
 }
